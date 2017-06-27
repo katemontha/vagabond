@@ -5,3 +5,31 @@
 .navbar {
     margin: 0;
 }
+
+body {
+    background: url('http://www.adweek.com/wp-content/uploads/2017/04/atlanta-ga-skyline-PAGE-2017.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 7em;
+}
+
+.index-header {
+    color: white;
+    margin: 5em;
+}
+
+.index-content {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 60px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: black;
+}
