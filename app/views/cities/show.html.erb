@@ -1,11 +1,12 @@
 <div id="cities-view-container">
-    <h1>CITY <SHOW></SHOW></h1>
+    <h1><%= @city.name %><SHOW></SHOW></h1>
     <ul>
         <% @city.posts.each do |post| %>
             <li>
                 <h2>
                     <%= post.content %> <br>
                     <%= post.user.name %>
+                    <%= image_tag post.picture %>
                 </h2>
             </li>
             <% end %>
