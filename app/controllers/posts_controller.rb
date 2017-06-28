@@ -37,7 +37,7 @@ def index
     private
     def post_params
         params.require(:post)
-              .permit(:user_id, :city_id, :content)
+              .permit(:city_id, :content)
     end 
     
 end
