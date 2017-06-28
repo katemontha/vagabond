@@ -10,6 +10,7 @@ class PostsController < ApplicationController
     
     def show
         @post = Post.find(params[:id])    
+        puts @post.picture
     end
     
     def edit
@@ -37,7 +38,7 @@ class PostsController < ApplicationController
     private
     def post_params
         params.require(:post)
-              .permit(:content)
+              .permit(:content, :picture)
               .merge(:user_id => current_user.id, :city_id => params[:city_id])
     end
     
