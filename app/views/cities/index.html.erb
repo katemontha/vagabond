@@ -1,0 +1,16 @@
+<div id="cities-view-container">
+    <h1>ALL CITIES</h1>
+    <ul>
+        <% @cities.each do |city| %>
+            <li>
+                <h2>
+                    <%= city.name %>
+                </h2>
+            </li>
+            <% end %>
+
+    </ul>
+    <li>
+        <%= link_to "new city", new_city_path%>
+    </li>
+</div>
