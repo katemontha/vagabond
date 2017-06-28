@@ -17,20 +17,24 @@ def index
     end
     
     def edit
-        @post = Post.find(params[:id])
+        
+        @city = City.find(params[:city_id])
+        @post = @city.posts.find(params[:id])
+
     end
     
     def update
         @post = Post.find(params[:id])
         @post.update(post_params)
 
-        redirect_to posts_path(@post)
+        redirect_to city_post_path(@post, @post)
     end
 
     def destroy
         @post = Post.find(params[:id])
         @post.destroy
 
+        #fix this redirect later
         redirect_to posts_path
     end
 
