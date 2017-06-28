@@ -8,8 +8,8 @@ def index
     end
     
     def create
-       @post = Post.create!(post_params)
-        redirect_to post_path(@post)
+        @post = Post.create!(post_params)
+        redirect_to city_post_path(@post, @post)
     end
     
     def show
@@ -37,7 +37,8 @@ def index
     private
     def post_params
         params.require(:post)
-              .permit(:city_id, :content)
-    end 
+              .permit(:content)
+              .merge(:user_id => current_user.id, :city_id => params[:city_id])
+    end
     
 end
