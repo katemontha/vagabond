@@ -1,15 +1,11 @@
 class PostsController < ApplicationController
-def index
-        @posts = Post.all
-    end
-    
     def new
         @post = Post.new
     end
     
     def create
         @post = Post.create!(post_params)
-        redirect_to city_post_path(@post, @post)
+        redirect_to city_post_path(@post.city_id, @post)
     end
     
     def show
@@ -27,7 +23,7 @@ def index
         @post = Post.find(params[:id])
         @post.update(post_params)
 
-        redirect_to city_post_path(@post, @post)
+        redirect_to city_post_path(@post.city_id, @post)
     end
 
     def destroy

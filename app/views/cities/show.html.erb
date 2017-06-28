@@ -1,0 +1,17 @@
+<div id="cities-view-container">
+    <h1>CITY <SHOW></SHOW></h1>
+    <ul>
+        <% @city.posts.each do |post| %>
+            <li>
+                <h2>
+                    <%= post.content %> <br>
+                    <%= post.user.name %>
+                </h2>
+            </li>
+            <% end %>
+
+    </ul>
+    <li>
+        <%= link_to "new post", new_city_post_path(@city)%>
+    </li>
+</div>
