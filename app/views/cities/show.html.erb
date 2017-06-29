@@ -1,6 +1,6 @@
 
-    <h1><%= @city.name %><SHOW></SHOW></h1>
-        <%= link_to "Back To Cities", cities_path %> | <%= link_to "New Post", new_city_post_path(@city)%>
+<h1><%= @city.name %></h1>
+<%= link_to "Back To Cities", cities_path %> | <%= link_to "New Post", new_city_post_path(@city)%>
 <div id="cities-view-container">
     <ul>
         <% @city.posts.each do |post| %>
