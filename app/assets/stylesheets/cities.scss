@@ -13,6 +13,7 @@
 #cities-view-container {
     text-align: center;
     padding: 5em 0;
+    text-align: center;
 }
 
 .show-city {
@@ -25,14 +26,16 @@ ul {
 }
 
 .cards {
-    padding: 30px;
+    padding: 3em 18em;
     list-style: none;
     width: 100%;
+    text-align: center;
 }
 
 .cards:nth-child(even) { 
     background: white; 
 }
+
  .links {
      text-align: right;
  }
