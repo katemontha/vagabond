@@ -33,9 +33,15 @@ ul {
 }
 
 .cards:nth-child(even) { 
-    background: white; 
+    background: #f2efef; 
 }
 
  .links {
      text-align: right;
+ }
+
+ .content {
+     width: 700px;
+     margin: 25px auto;
+
  }
