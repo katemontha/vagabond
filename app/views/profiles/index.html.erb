@@ -1,0 +1,20 @@
+<div id="cities-view-container">
+    <h1>ALL USERS</h1>
+    <ul>
+        <% @users.each do |user| %>
+            <li>
+                <h2>
+                    <%= user.name %>
+                    <%= user.username %>
+                    <%= user.email %>
+                    <%= image_tag @user.picture %>
+                </h2>
+            </li>
+            <% end %>
+
+    </ul>
+    <li>
+    </li>
+</div>
+
+                            
