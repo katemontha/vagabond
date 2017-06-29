@@ -1,4 +1,4 @@
-:city_sunset: # Vagabond :city_sunset:
+# :city_sunset: Vagabond :city_sunset:
 
 ## This project was created for travelers to show their experience and awesome pictures of their most memorable moments. 
 
