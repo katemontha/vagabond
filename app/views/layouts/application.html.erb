@@ -28,6 +28,7 @@
       <ul class="nav navbar-nav navbar-right">
         <ul class="nav navbar-nav">
           <li class="active"><a href="/users/sign_up">Sign Up</a></li>
+          <li><%= link_to "User", profiles_path%></li>
           <li><a href="/users/sign_in">Login</a></li>
           <li><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
         </ul>

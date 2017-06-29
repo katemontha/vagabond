@@ -2,9 +2,9 @@
 <p><%= @user.name %></p>
 <p><%= @user.hometown %></p>
 <p><%= @user.username %></p>
-<%= image_tag @user.picture %>
+<%= image_tag 'http://orig09.deviantart.net/b3b4/f/2013/116/b/0/spock_facebook_default_pic_by_nocturnalmarauder-d634b2y.jpg' %>
 <br>
-<%= button_to "Delete Post", city_post_path,
+<%= button_to "Delete User", profile_path,
                              method: :delete, 
                              data: {
                                  :'sweet-alert-confirm' => 'Are you sure you want to delete this post?',
@@ -14,4 +14,4 @@
                                  :'sweet-alert-type' => 'warning'
                                  } %>
 
-<%= link_to "Edit User", edit_profile_post_path(@city) %>                                
+<%= link_to "Edit User", edit_profile_path(@user) %>                                
