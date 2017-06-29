@@ -9,8 +9,8 @@ class PostsController < ApplicationController
     end
     
     def show
-        @post = Post.find(params[:id])    
-        puts @post.picture
+        @post = Post.find(params[:id])
+        @city = City.find(params[:city_id])
     end
     
     def edit
