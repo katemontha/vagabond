@@ -3,3 +3,5 @@
 <%= image_tag @post.picture %><br>
 <%= button_to "Delete Post", city_post_path,
                                 method: :delete, data: { confirm: "Are you sure?" } %>
+
+<%= link_to "Edit Post", edit_city_post_path(@city) %>                                
