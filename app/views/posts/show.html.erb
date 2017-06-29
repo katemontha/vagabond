@@ -1,2 +1,4 @@
 <%= @post.content %>
 <%= image_tag @post.picture %>
+<%= button_to "Delete Post", city_post_path,
+                                method: :delete, data: { confirm: "Are you sure?" } %>
