@@ -1,5 +1,5 @@
-<%= link_to "Back to #{@city.name}", city_path(@city) %>
-<%= @post.content %><br>
+<%= link_to "Back to #{@city.name}", city_path(@city) %> <br>
+<p><%= @post.content %></p>
 <%= image_tag @post.picture %><br>
 <%= button_to "Delete Post", city_post_path,
                                 method: :delete, data: { confirm: "Are you sure?" } %>
