@@ -9,14 +9,14 @@ This travel application was a 3 person collaboration of [Yeni Nomezqui](https://
 Check out our project live on [Heroku](https://shielded-mountain-14432.herokuapp.com/)!
 
 ## Technologies utilized in this project:
-* Ruby on Rails
+* Ruby on Rails 5.1
 * Bootstrap-Sass
 * Bootswatch-Rails
 * Devise
 * Sweet Alert
 * CSS
 
-As a team we utilized git collaboration and divided the responsabilites among our teammates. 
+As a team we utilized git collaboration and divided the responsabilites among our teammates. We also pair programmed to be more suffient on merge conflicts as well as debugging.  
 
 ## In this project you are able to:
 * Create a profile
