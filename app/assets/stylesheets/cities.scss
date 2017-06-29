@@ -15,8 +15,9 @@
     padding: 5em 0;
 }
 
-h1 {
+.show-city {
     font-size: 72px;
+    text-align: center;
 }
 
 ul {
@@ -25,11 +26,13 @@ ul {
 
 .cards {
     padding: 30px;
-    background-color: #e2e2e2;
     list-style: none;
     width: 100%;
 }
 
-.cards:nth-child(even) { background: white; 
+.cards:nth-child(even) { 
+    background: white; 
 }
-
+ .links {
+     text-align: right;
+ }
