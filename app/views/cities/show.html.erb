@@ -1,18 +1,16 @@
-<div id="cities-view-container">
+
     <h1><%= @city.name %><SHOW></SHOW></h1>
-        <%= link_to "new post", new_city_post_path(@city)%>
+        <%= link_to "Back To Cities", cities_path %> | <%= link_to "New Post", new_city_post_path(@city)%>
+<div id="cities-view-container">
     <ul>
         <% @city.posts.each do |post| %>
-            <li>
-                <h2>
-                    <%= post.content %> <%= link_to "View Post", city_post_path(@city, post) %><br>
-                    
+            <li class="cards">
+                <p>
                     <%= image_tag post.picture, :class => "image" %><br>
+                    <%= post.content %> <%= link_to "View Post", city_post_path(@city, post) %><br>
                     <%= post.user.name %>
-                </h2>
-               
+              </p>
             </li>
-            <% end %>
-
+         <% end %>
     </ul>
 </div>

@@ -3,5 +3,33 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .image {
-    max-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
 }
+
+.cities-image {
+    width: 1000px;
+}
+#cities-view-container {
+    text-align: center;
+    padding: 5em 0;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+ul {
+    padding: 0;
+}
+
+.cards {
+    padding: 30px;
+    background-color: #e2e2e2;
+    list-style: none;
+    width: 100%;
+}
+
+.cards:nth-child(even) { background: white; 
+}
+

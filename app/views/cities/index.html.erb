@@ -2,9 +2,9 @@
     <h1>ALL CITIES</h1>
     <ul>
         <% @cities.each do |city| %>
-            <li>
+            <li class="cards">
                 <h2>
-                    <%= image_tag city.picture, :class => "image" %>
+                    <%= image_tag city.picture, :class => "cities-image" %> <br>
                     <%= link_to city.name, city %>
                 </h2>
             </li>
