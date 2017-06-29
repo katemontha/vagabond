@@ -4,6 +4,7 @@
         <% @cities.each do |city| %>
             <li>
                 <h2>
+                    <%= image_tag city.picture, :class => "image" %>
                     <%= link_to city.name, city %>
                 </h2>
             </li>
