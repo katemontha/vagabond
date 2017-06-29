@@ -5,7 +5,7 @@
         <% @city.posts.each do |post| %>
             <li>
                 <h2>
-                    <%= post.content %> <br>
+                    <%= post.content %> <%= link_to "View Post", city_post_path(@city, post) %><br>
                     <%= image_tag post.picture, :class => "image" %><br>
                     <%= post.user.name %>
                 </h2>
