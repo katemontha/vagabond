@@ -17,7 +17,7 @@ Check out our project live on [Heroku](https://shielded-mountain-14432.herokuapp
 * CSS
 
 ## As a team we
->utilized git collaboration and divided the responsabilites among our teammates. We also pair programmed to be more suffient on >merge conflicts as well as debugging.  
+> utilized git collaboration and divided the responsabilites among our teammates. We also pair programmed to be more suffient  > on merge conflicts as well as debugging.  
 
 ## In this project you are able to:
 * Create a profile
