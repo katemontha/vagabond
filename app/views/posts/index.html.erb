@@ -1,7 +1,7 @@
 <div id="cities-view-container">
     <h1>ALL POSTS</h1>
     <ul>
-        <% @posts.each do |post| %>
+        <% bootstrap_form_tag @posts.each do |post| %>
             <li>
                 <h2>
                     <%= post.content %>
@@ -13,4 +13,9 @@
     <li>
         <%= link_to "new post", new_city_post_path%>
     </li>
+</div>
+
+<div class="btn btn-primary">
+  <%= link_to 'Edit', edit_product_path(@product), :class => "btn" %> |
+  <%= link_to 'Back', products_path, :class => "btn"%>
 </div>
