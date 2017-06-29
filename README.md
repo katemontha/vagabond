@@ -1,4 +1,4 @@
-# Vagabond
+# Vagabond :city_sunset:
 
 ## This project was created for travelers to show their experience and awesome pictures of their most memorable moments. 
 
@@ -16,7 +16,7 @@ Check out our project live on [Heroku](https://shielded-mountain-14432.herokuapp
 * Sweet Alert
 * CSS
 
-* As a team we utilized git collaboration and divided the responsabilites among our teammates. We also pair programmed to be more suffient on merge conflicts as well as debugging.  
+As a team we utilized git collaboration and divided the responsabilites among our teammates. We also pair programmed to be more suffient on merge conflicts as well as debugging.  
 
 ## In this project you are able to:
 * Create a profile
