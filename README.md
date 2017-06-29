@@ -2,7 +2,7 @@
 
 ## This project was created for travelers to show their experience and awesome pictures of their most memorable moments. 
 
-<img width="1430" alt="screen shot 2017-06-29 at 10 18 26 am" src="https://user-images.githubusercontent.com/22422858/27697243-ac0eda40-5cc1-11e7-867b-8db8198c965d.png">
+<img width="756" alt="screen shot 2017-06-29 at 11 53 48 am" src="https://user-images.githubusercontent.com/22422858/27697302-d343bad6-5cc1-11e7-9e26-4f3f03a572af.png">
 
 This travel application was a 3 person collaboration of [Yeni Nomezqui](https://github.com/Rolita1007), [Kate Montha](https://github.com/katemontha), and [Christopher McClain](https://github.com/cmac1223).
 
