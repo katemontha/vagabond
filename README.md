@@ -1,4 +1,4 @@
-# Vagabond
+# :city_sunset: Vagabond :city_sunset:
 
 ## This project was created for travelers to show their experience and awesome pictures of their most memorable moments. 
 
@@ -9,46 +9,20 @@ This travel application was a 3 person collaboration of [Yeni Nomezqui](https://
 Check out our project live on [Heroku](https://shielded-mountain-14432.herokuapp.com/)!
 
 ## Technologies utilized in this project:
-* Ruby on Rails
+* Ruby on Rails 5.1
 * Bootstrap-Sass
 * Bootswatch-Rails
 * Devise
 * Sweet Alert
 * CSS
 
-As a team we utilized git collaboration and divided the responsabilites among our teammates. 
+## As a team we
+> utilized git collaboration and divided the responsabilites among our teammates. We also pair programmed to be more suffient  on merge conflicts as well as debugging.  
 
 ## In this project you are able to:
 * Create a profile
 * Edit and delete a post
 * Show posts
 * Upload a picture
-* Edit and delete picture
+* Edit and delete a picture
 
-
-
-## 
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
