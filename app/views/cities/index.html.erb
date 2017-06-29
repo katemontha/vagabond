@@ -1,14 +1,16 @@
+<h1>
+    ALL CITIES
+</h1>
 <div id="cities-view-container">
-    <h1>ALL CITIES</h1>
     <ul>
         <% @cities.each do |city| %>
             <li class="cards">
                 <h2>
                     <%= image_tag city.picture, :class => "cities-image" %> <br>
-                    <%= link_to city.name, city %>
+                        <%= link_to city.name, city %>
                 </h2>
             </li>
-        <% end %>
+            <% end %>
     </ul>
-    
+
 </div>
