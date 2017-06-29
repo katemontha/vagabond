@@ -4,14 +4,22 @@
 
 <img width="1430" alt="screen shot 2017-06-29 at 10 18 26 am" src="https://user-images.githubusercontent.com/22422858/27692340-741446c8-5cb4-11e7-93ec-63e7b4a3ae80.png">
 
-A 3 person collaboration [Yeni Nomezqui](https://github.com/Rolita1007), [Kate Montha](https://github.com/katemontha), [Christopher McClain](https://github.com/cmac1223) 
+A 3 person collaboration [Yeni Nomezqui](https://github.com/Rolita1007), [Kate Montha](https://github.com/katemontha), [Christopher McClain](https://github.com/cmac1223) using ##Ruby on Rails
 
 Our project is live on [Heroku](https://shielded-mountain-14432.herokuapp.com/)
 
-##Technologies Used
+##  Technologies utilized in this project
 * Ruby on Rails
 * CSS
 * Bootstrap
+
+## In this project you are able to:
+* Create a profile
+* Edit and delete a post
+* Show posts
+* Upload a picture
+* Edit and delete picture
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
