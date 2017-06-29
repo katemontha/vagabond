@@ -10,6 +10,15 @@
                     <%= post.content %> <%= link_to "View Post", city_post_path(@city, post) %><br>
                     <%= post.user.name %>
               </p>
+            
+            <% if user_signed_in? && current_user.id == post.user_id %>
+                <button class="btn btn-default">
+                    <%= link_to "Edit Post", edit_city_post_path(@city.id, post) %>
+                </button>
+                <button class="btn btn-danger">
+                    <%= link_to "Delete Post", city_post_path(@city.id, post), method: :delete %>                
+                </button>
+            <% end %>
             </li>
          <% end %>
     </ul>
