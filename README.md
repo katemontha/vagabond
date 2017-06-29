@@ -6,12 +6,17 @@
 
 This travel application was a 3 person collaboration of [Yeni Nomezqui](https://github.com/Rolita1007), [Kate Montha](https://github.com/katemontha), and [Christopher McClain](https://github.com/cmac1223).
 
-Check out our project is live on [Heroku](https://shielded-mountain-14432.herokuapp.com/)!
+Check out our project live on [Heroku](https://shielded-mountain-14432.herokuapp.com/)!
 
-##  Technologies utilized in this project
+## Technologies utilized in this project:
 * Ruby on Rails
+* Bootstrap-Sass
+* Bootswatch-Rails
+* Devise
+* Sweet Alert
 * CSS
-* Bootstrap
+
+As a team we utilized git collaboration and divided the responsabilites among our teammates. 
 
 ## In this project you are able to:
 * Create a profile
@@ -19,6 +24,10 @@ Check out our project is live on [Heroku](https://shielded-mountain-14432.heroku
 * Show posts
 * Upload a picture
 * Edit and delete picture
+
+
+
+## 
 
 
 This README would normally document whatever steps are necessary to get the
