@@ -29,10 +29,11 @@ class PostsController < ApplicationController
 
     def destroy
         @post = Post.find(params[:id])
+        @city = City.find(params[:city_id])
         @post.destroy
 
         #fix this redirect later
-        redirect_to posts_path
+        redirect_to city_path(@city)
     end
 
     private
