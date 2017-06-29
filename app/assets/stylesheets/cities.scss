@@ -1,7 +1,6 @@
 // Place all the styles related to the cities controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .image {
     max-height: 400px;
     min-height: 400px;
@@ -10,13 +9,16 @@
 .cities-image {
     width: 1000px;
 }
+
 #cities-view-container {
     text-align: center;
     padding: 5em 0;
+    text-align: center;
 }
 
-h1 {
+.show-city {
     font-size: 72px;
+    text-align: center;
 }
 
 ul {
@@ -25,27 +27,21 @@ ul {
 
 .cards {
     padding: 30px;
-    background-color: #e2e2e2;
+    padding: 3em 18em;
     list-style: none;
     width: 100%;
+    text-align: center;
 }
 
-<<<<<<< HEAD
-.cards:nth-child(even) { 
-    background: #f2efef; 
+.cards:nth-child(even) {
+    background: #f2efef;
 }
 
- .links {
-     text-align: right;
- }
-
- .content {
-     width: 700px;
-     margin: 25px auto;
-
- }
-=======
-.cards:nth-child(even) { background: white; 
+.links {
+    text-align: right;
 }
 
->>>>>>> 7f7746e5e7bb6e2c3ed9f312ab386e1508cf1fa6
+.content {
+    width: 700px;
+    margin: 25px auto;
+}
