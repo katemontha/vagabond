@@ -4,7 +4,7 @@ class ProfilesController < ApplicationController
     end
     
     def show
-        @user = User.first    
+        @user = User.find(params[:id])   
     end
 
     def profile

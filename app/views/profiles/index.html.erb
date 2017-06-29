@@ -4,18 +4,13 @@
         <% @users.each do |user| %>
             <li>
                 <h2>
-                    <%= user.name %>
-                    <%= user.username %>
-                    <%= user.email %>
-                    <%= user.picture %>
-                    <%= link_to "Show User", profile_path(user) %>
+                    <%= user.name %> | <%= user.username %> | <%= user.email %> | <%= link_to "Show User", profile_path(user) %>
+                    
                 </h2>
             </li>
             <% end %>
 
     </ul>
-    <li>
-    </li>
 </div>
 
                             

@@ -1,3 +1,21 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.user-info {
+    margin: 30px 0;
+}
+
+.user {
+    margin: 30px;
+    width: 50%;
+}
+
+.user-content {
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+}
